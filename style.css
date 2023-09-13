@@ -1,0 +1,103 @@
+.general{
+    width: 400px;
+    margin: 50px;
+    height: auto;
+    justify-content: center;
+    background-color: black;
+
+}
+
+.row{
+    display: flex;
+    padding: 8px;
+
+}
+
+.row > div {
+    background-color: white;
+    color: black;
+    width: 60px;
+    height: 30px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 17px;
+    cursor: pointer;
+}
+
+.rows{
+    display: flex;
+    padding: 8px;
+}
+
+.rows > div {
+    background-color: rgb(253, 253, 253);
+    color: black;
+    width: 60px;
+    height: 30px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 17px;
+    cursor: pointer;
+}
+
+.roww{
+    display: flex;
+    padding: 8px;
+}
+
+.roww > div {
+    background-color: rgb(253, 253, 253);
+    color: black;
+    width: 60px;
+    height: 30px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 17px;
+    cursor: pointer;
+}
+
+.rowws{
+    display: flex;
+    padding: 8px;
+}
+
+.rowws > div {
+    background-color: rgb(253, 253, 253);
+    color: black;
+    width: 60px;
+    height: 30px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 17px;
+    cursor: pointer;
+}
+
+input{
+    width: 376px;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#del{
+    width: 100%;
+    cursor: pointer;
+    background-color: white;
+}
